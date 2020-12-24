@@ -31,7 +31,9 @@ const logout = () => {
 	localStorage.removeItem("user");
 	localStorage.removeItem("roles");
 	localStorage.removeItem("userToken");
-	localStorage.removeItem("email_verified_at")
+	localStorage.removeItem("email_verified_at");
+	localStorage.removeItem("email");
+	localStorage.removeItem("Id");
 };
 
 export default {

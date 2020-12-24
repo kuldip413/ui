@@ -11,6 +11,7 @@ import ResetPassword from "./components/resetPassword.component";
 import Profile from "./components/profile.component";
 import BoardUser from "./components/BoardUser.component";
 import BoardAdmin from "./components/BoardAdmin.component";
+// import GetUsers from "./components/GetUsers.component";
 import { logout } from "./actions/auth";
 import { clearMessage } from "./actions/message";
 import { history } from "./helpers/history";

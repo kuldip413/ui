@@ -37,8 +37,6 @@ const Profile = () => {
 	const [verificationToken, setVerificationToken] = useState("");
 	const [successful, setSuccessful] = useState(false);
 
-	const dispatch = useDispatch();
-
 	const onChangeToken = (e) => {
         const verificationToken = e.target.value;
         setVerificationToken(verificationToken);

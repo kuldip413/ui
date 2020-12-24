@@ -6,11 +6,11 @@ import {
 	LOGOUT,
 } from "../actions/types";
 
-const user = JSON.parse(localStorage.getItem("user"));
+const userToken = JSON.parse(localStorage.getItem("userToken"));
 
-const initialState = user
-	? { isLoggedIn: true, user }
-	: { isLoggedIn: false, user: null};
+const initialState = userToken
+	? { isLoggedIn: true, userToken }
+	: { isLoggedIn: false, userToken: null};
 
 export default function (state = initialState, action){
 	const { type, payload } = action;
